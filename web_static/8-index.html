@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Header and Footer Example</title>
+	<link rel="stylesheet" type="text/css" href="styles/4-common.css">
+	<link rel="stylesheet" type="text/css" href="styles/3-header.css">
+	<link rel="stylesheet" type="text/css" href="styles/3-footer.css">
+	<link rel="stylesheet" type="text/css" href="styles/6-filters.css">
+	<link rel="stylesheet" type="text/css" href="styles/8-places.css">
+</head>
+<body>
+	<header>
+		<div class="logo"></div>
+	</header>
+
+	<div class="container">
+		<section class="filters">
+			<div class="locations">
+				<h3>States</h3>
+				<ul class="popover">
+					<li>
+						<h2>New York</h2>
+						<ul>
+							<li>New York City</li>
+							<li>Buffalo</li>
+							<li>Rochester</li>
+						</ul>
+					</li>
+					<li>
+						<h2>California</h2>
+						<ul>
+							<li>Los Angeles</li>
+							<li>San Francisco</li>
+							<li>San Diego</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="amenities">
+				<h3>Amenities</h3>
+				<ul class="popover">
+					<li>Gym</li>
+					<li>Swimming Pool</li>
+					<li>Parking</li>
+				</ul>
+			</div>
+			<button class="search-button">Search</button>
+		</section>
+
+		<section class="places">
+			<h1>Places</h1>
+			<article>
+				<div class="place-info">
+					<h2>Place Name 1</h2>
+					<div class="price_by_night">$100</div>
+				</div>
+				<div class="information">
+					<div class="max_guest">
+						<i class="fas fa-users"></i>
+						<span>Max Guests: 4</span>
+					</div>
+					<div class="number_rooms">
+						<i class="fas fa-bed"></i>
+						<span>Bedrooms: 2</span>
+					</div>
+					<div class="number_bathrooms">
+						<i class="fas fa-bath"></i>
+						<span>Bathrooms: 2</span>
+					</div>
+				</div>
+				<div class="user">
+					<span><strong>Owner:</strong> Fake Owner</span>
+				</div>
+				<div class="description">
+					<p>Fake description text goes here.</p>
+				</div>
+			</article>
+			<!-- Add more articles as needed -->
+		</section>
+	</div>
+
+	<footer>
+		<span>Holberton School</span>
+	</footer>
+</body>
+</html>
