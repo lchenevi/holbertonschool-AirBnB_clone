@@ -12,6 +12,7 @@
 .locations:hover .popover,
 .amenities:hover .popover {
 	display: block;
+	z-index: 1;
 }
 
 .locations,
@@ -66,9 +67,9 @@
 
 .locations h4,
 .amenities h4 {
-	font-weight: 200;
+	font-weight: 300;
 	margin-left: 40px;
-	margin-top: -20px;
+	margin-top: -15px;
 }
 
 .search-button {

@@ -10,6 +10,7 @@
 .places h1 {
 	width: 100%;
 	font-size: 35px;
+	margin-bottom: -2px;
 }
 
 .places article {
