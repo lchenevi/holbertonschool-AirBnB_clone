@@ -9,6 +9,7 @@
 
 .places h1 {
 	width: 100%;
+	font-size: 35px;
 }
 
 .places article {
@@ -28,6 +29,7 @@
 
 .places article h2 {
 	font-size: 30px;
+	margin-left: 130px;
 }
 
 .price_by_night {
@@ -77,9 +79,9 @@
 	margin-top: 10px;
 }
 
-.places article .description p {
+/*.places article .description p {
 	margin: 0;
-}
+}*/
 
 .max_guest, .number_rooms, .number_bathrooms {
 	width: 130px;
